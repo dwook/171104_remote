@@ -28,15 +28,24 @@
             $(".tab li").click(function(){
                 
                 
-                // if($selected) {
-                //     $selected.removeClass("on");
-                //     $(".panel").eq($selectedIdx).removeClass("on");
-                // }
+                if($selected) {
+                    $selected.removeClass("on");
+                    $(".panel").eq($selectedIdx).removeClass("on");
+                }
 
                 // $selected = $(this);
                 // $selectedIdx = $selected.index();
                
                 // $selected.addClass("on");
+                // $(".panel").eq($selectedIdx).addClass("on");
+                // console.log($selected);
+
+                if($selected) {
+                     $selected.removeClass("on");
+                     $(".panel").hide();
+
+                }
+                 // $selected.addClass("on");
                 // $(".panel").eq($selectedIdx).addClass("on");
                 // console.log($selected);
 
