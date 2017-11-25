@@ -1,0 +1,367 @@
+@charset "utf-8";
+
+/* temp */
+@font-face {
+    font-family:'Arita-SemiBold'; 
+    font-style: normal; 
+    font-weight: normal; 
+    src: url(/font/Arita-SemiBold.eot); 
+    src: url(/font/Arita-SemiBold.eot?#iefix) format('embedded-opentype'),
+         url(/font/Arita-SemiBold.woff) format('woff'),
+         url(/font/Arita-SemiBold.ttf) format('truetype')
+}
+
+@font-face {
+    font-family:'Arita-Medium'; 
+    font-style: normal; 
+    font-weight: normal; 
+    src: url(/font/Arita-Medium.eot); 
+    src: url(/font/Arita-Medium.eot?#iefix) format('embedded-opentype'),
+         url(/font/Arita-Medium.woff) format('woff'),
+         url(/font/Arita-Medium.ttf) format('truetype')
+}
+
+/* RESET */
+.temp #header {position:relative; width:100%; height:95px; z-index:900; background:url(/ux/test/kr/ko/product/detail/golden_glow_face_oil/temp/@header.jpg) no-repeat 50% 0;}
+.temp #footer {clear: both; display: block; height:107px; border-top: 1px solid #e5e5e5; background:url(/ux/test/kr/ko/product/detail/golden_glow_face_oil/temp/@footer.jpg) no-repeat 50% 0;}
+
+/* COMMON */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, form, fieldset, p, button {font-family:"Arita-Medium"; letter-spacing:-0.5px; word-break:keep-all;}
+#content.super_vital strong {font-weight:300; font-family:'Arita-SemiBold';}
+#wrap {padding:0;}
+#content.super_vital {padding:0;}
+#content.super_vital .breadcrumb {text-align:left; max-width:960px; width:auto;}
+
+.gnb_super_vital {position:absolute; left:50%; top:1075px; margin-left:513px; font-family:"Arita-Medium"}
+.gnb_super_vital ul {width:150px; font-family:"Arita-Medium"; text-align:left;}
+.gnb_super_vital.fixed {position:fixed; top:320px; z-index:10;}
+.gnb_super_vital li {position:relative;}
+.gnb_super_vital li+li {margin-top:19px}
+.gnb_super_vital li:after,
+.gnb_super_vital li:before {display:inline-block; position:absolute; left:0; width:0; height:0; transition:all 0.2s ease; content:'';}
+.gnb_super_vital li.on {padding-left:20px;}
+.gnb_super_vital li.on:before {top:0; border-bottom:8px solid #ff98a6; border-left:13px solid transparent;}
+.gnb_super_vital li.on:after {top:8px; border-top:8px solid #9477b7; border-left:13px solid transparent;}
+.gnb_super_vital a {font-size:16px; color:#333; letter-spacing:-0.5px}
+.gnb_super_vital.white a {color:#fff;}
+
+.ac_subtit {margin:80px 0 40px; font-family:'Arita-SemiBold'; font-size:20px;}
+.ac_subtit span {position:relative;}
+.ac_subtit span:before {display:block; position:absolute; top:7px; left:-60px; width:50px; height:2px; border-top:1px solid #f9c6cd; border-bottom:1px solid #f9c6cd; content:"";} 
+.ac_subtit span:after {display:block; position:absolute; top:7px; right:-60px; width:50px; height:2px; border-top:1px solid #c2b2d6; border-bottom:1px solid #c2b2d6; content:"";}
+
+.content_box {-webkit-transition:all .5s ease-out; -moz-transition:all .5s ease-out; -o-transition:all .5s ease-out; -ms-transition:all .5s ease-out; transition:all .5s ease-out;}
+.content_box {opacity:0; -webkit-transform:translate3d(0,70px,0); -moz-transform:translate3d(0,70px,0); -o-transform:translate3d(0,70px,0); -ms-transform:translate3d(0,70px,0); transform:translate3d(0,70px,0);}
+.content_box.on {opacity:1; -webkit-transform:translate3d(0,0,0); -moz-transform:translate3d(0,0,0); -o-transform:translate3d(0,0,0); -ms-transform:translate3d(0,0,0); transform:translate3d(0,0,0);}
+.box_product_bg {padding-bottom:590px; background:url(/kr/ko/product/detail/super-vital-base-cushion/common/bg_product_1.jpg) no-repeat center bottom;}
+.content_box.type_use {padding-top:90px; padding-bottom:120px; background-color:#f8f8f8;}
+
+.br {display:block;}
+.mbr {display:none;}
+
+/* CONTENT */
+.super_vital {color:#333; text-align:center;}
+.super_vital .box_unit {max-width:960px; margin:0 auto;}
+.super_vital sup {font-size:54%;}
+#wrap .txt_color_1 {color:#ff98a6;}
+#wrap .txt_color_2 {color:#9477b7;}
+#wrap .txt_color_3 {color:#c48911;}
+
+/* First */
+.visual_super_vital {background:url(/kr/ko/product/detail/super-vital-base-cushion/common/bg_first.jpg) no-repeat 50% 0; background-size:cover;}
+.visual_super_vital .box_unit {position:relative; width:580px; min-height:488px; margin:0 auto; padding-right:380px; padding-top:260px; color:#333;}
+.visual_super_vital .box_unit h2 {margin-bottom:55px; font-weight:300; font-size:38px; line-height:45px; font-family:'Arita-SemiBold';}
+.visual_super_vital .box_unit h2 span {font-family:'Arita-SemiBold';}
+.visual_super_vital .box_unit .txt_1 {margin-bottom:35px; font-size:31px;}
+.visual_super_vital .box_unit .txt_2 {display:inline-block; position:relative; padding:0 15px; font-size:22px; font-family:'Arita-SemiBold';}
+.visual_super_vital .box_unit .txt_2:before,
+.visual_super_vital .box_unit .txt_2:after {display:block; position:absolute; top:50%; width:1px; height:18px; margin-top:-9px; background-color:#333; content:'';}
+.visual_super_vital .box_unit .txt_2:before {left:0;}
+.visual_super_vital .box_unit .txt_2:after {right:0;}
+
+/* 제품 소개 */
+.box_product {position:relative; margin:60px auto 0;}
+.h2_tit,
+.tit_type,
+.txt_exp_hash {font-weight:300; font-size:35px; line-height:44px; color:#333;}
+.h2_tit {margin-top:65px; margin-bottom:8px; font-family:'Arita-SemiBold';}
+.box_product .h2_tit,
+.h2_tit.type_1 {font-family:'Arita-Medium';}
+.box_product .tit_exp {font-family:'Arita-SemiBold';}
+.ac_subtit + .h2_tit {margin-top:40px;}
+.txt_underline,
+.txt_underline_1 {display:inline-block; position:relative;}
+.txt_underline_1 {z-index:1; margin-right:10px; padding:0 5px; font-size:22px; vertical-align:middle;}
+.txt_underline:after {display:block; position:absolute; bottom:0; left:0; width:100%; height:2px; background-color:#c8c8c8; content:'';}
+.txt_underline_1:after {display:block; opacity:.8; position:absolute; top:50%; left:0; z-index:-1; width:100%; height:9px; margin-top:3px; background-color:#f9c6cd; content:'';}
+.tit_exp.type_1,
+.txt_small_1 {font-size:20px; line-height:28px;}
+.tit_exp {font-size:17px;}
+.buy_infor {margin-top:35px; font-size:0;}
+.buy_infor li {display:inline-block; margin-left:5px; padding:0 10px; border:1px solid #fbded0; font-size:14px; line-height:24px}
+.buy_infor li:first-child {margin:0}
+.txt_price {margin-top:16px; margin-bottom:43px; font-size:17px; font-family:'Arita-SemiBold'; color:#333;}
+.ac_buybtn {display:inline-block; -webkit-box-sizing:border-box; box-sizing:border-box; min-width:124px; height:36px; padding:0 30px; background-color:#0c1e45; font-family:'Arita-SemiBold'; line-height:36px; font-size:16px; color:#fff; text-align:center;}
+.btn .ac_buybtn.mobtn {display:none}
+.box_product .box_buy {position:relative; margin-top:45px; padding-top:95px;}
+.box_product .btn {position:absolute; top:0; left:0; width:100%;}
+.list_super_vital {margin-top:15px; padding:0 68px;}
+.list_super_vital > li {position:relative; min-height:117px; padding:60px 0 60px 262px; border-top:1px dotted #fbdfd2; font-size:19px; line-height:30px; color:#333; text-align:left;}
+.list_super_vital > li:before {display:block; position:absolute; top:40px; left:0; width:159px; height:159px; background-repeat:no-repeat; content:'';}
+.list_super_vital > li:first-child {border-top:none;}
+.list_super_vital > li .txt_tit {margin-bottom:12px; font-size:28px; line-height:1.5em; font-family:'Arita-SemiBold';}
+.list_super_vital > li.li_1 .txt_tit {color:#ff9ca9;}
+.list_super_vital > li.li_2 .txt_tit {color:#89d2c4;}
+.list_super_vital > li.li_3 .txt_tit {color:#ad97c8;}
+.list_super_vital > li.li_3 .stit {position:relative; margin-top:22px; padding-left:15px; font-size:17px; font-family:'Arita-SemiBold'; color:#9477b7;}
+.list_super_vital > li.li_3 .stit:before {display:block; position:absolute; top:4px; left:0; content:'*';}
+.list_super_vital > li.li_3 .stxt {padding-left:15px; font-size:17px; line-height:30px; color:#666;}
+.list_super_vital > li.li_1:before {background-image:url(/kr/ko/product/detail/super-vital-base-cushion/common/img_exp_1_1.png);}
+.list_super_vital > li.li_2:before {background-image:url(/kr/ko/product/detail/super-vital-base-cushion/common/img_exp_1_2.png);}
+.list_super_vital > li.li_3:before {background-image:url(/kr/ko/product/detail/super-vital-base-cushion/common/img_exp_1_3.png);}
+
+/* 컬러블렌딩 테크놀로지 */
+.area_color_1 {position:relative; margin-top:49px; padding:60px 0; background-color:#f8f8f8;}
+.area_color_1:after {display:block; clear:both; visibility:hidden; height:0; content:'';}
+.area_color_1 .box_color,
+.area_color_1 .list_color {float:left; position:relative; width:380px;}
+.area_color_1 .list_color {float:right;}
+.area_color_1 .box_color {padding-left:70px; padding-top:30px; font-size:19px; line-height:30px;}
+.area_color_1 .list_color {padding-right:100px;}
+.area_color_1 .box_color .txt_tit {font-size:22px; font-family:'Arita-SemiBold';}
+.area_color_1 .box_color .list_txt {position:relative; padding-top:120px;}
+.area_color_1 .box_color .list_txt:before {display:block; position:absolute; top:27px; left:50%; width:146px; height:72px; margin-left:-73px; background:url(/kr/ko/product/detail/super-vital-base-cushion/common/icon_arrow_1.png) no-repeat; content:'';}
+.area_color_1 .box_color .list_txt li {position:relative; font-size:22px; font-family:'Arita-SemiBold';}
+.area_color_1 .box_color .list_txt li:first-child {padding-bottom:31px;}
+.area_color_1 .box_color .list_txt li:first-child:after {display:block; position:absolute; top:30px; left:0; width:100%; text-align:center; content:'+';}
+.area_color_1 .list_color {overflow:hidden; position:relative; width:369px; height:0; margin-left:40px; padding-top:368px; background:url(/kr/ko/product/detail/super-vital-base-cushion/common/img_exp_2.png) no-repeat; text-indent:-9999px;}
+.area_color_1 .list_color li {position:absolute; width:105px; height:85px; font-size:18px; line-height:24px; color:#666; text-align:center; text-indent:0;}
+.area_color_1 .list_color li .txt_tit {margin-bottom:13px; font-size:23px; font-family:'Arita-SemiBold'; color:#fff;}
+.area_color_1 .list_color li.li_1 {top:41px; left:27px;}
+.area_color_1 .list_color li.li_2 {top:41px; left:237px;}
+.area_color_1 .list_color li.li_3 {top:250px; left:27px;}
+.area_color_1 .list_color li.li_4 {top:250px; left:237px;}
+.area_color_2 {margin-top:100px;}
+.area_color_2 .list_color_img {position:relative; width:960px; height:430px; margin-top:25px; background:url(/kr/ko/product/detail/super-vital-base-cushion/common/bg_product_3.png) no-repeat;}
+.area_color_2 .list_color_img li {position:absolute; right:28px; width:220px; height:60px; font-size:19px; color:#333;}
+.area_color_2 .list_color_img li .txt_tit {margin-bottom:14px; font-size:22px; font-family:'Arita-SemiBold';}
+.area_color_2 .list_color_img li.li_1 .txt_tit {color:#b59bd0;}
+.area_color_2 .list_color_img li.li_2 .txt_tit {color:#ff9dac;}
+.area_color_2 .list_color_img li.li_3 .txt_tit {color:#8ac9bc;}
+.area_color_2 .list_color_img li.li_4 .txt_tit {color:#f4dea2;}
+.area_color_2 .list_color_img li.li_1 {top:43px;}
+.area_color_2 .list_color_img li.li_2 {top:146px;}
+.area_color_2 .list_color_img li.li_3 {top:247px;}
+.area_color_2 .list_color_img li.li_4 {top:346px;}
+.box_color_face {margin-top:60px;}
+.box_color_face .list_face:after,
+.box_color_face:after {display:block; clear:both; visibility:hidden; height:0; content:'';}
+.box_color_face .box_face_1 {float:left; position:relative; width:430px; padding-right:93px;}
+.box_color_face .box_face_1:after {display:block; position:absolute; top:169px; left:460px; width:48px; height:98px; background:url(/kr/ko/product/detail/super-vital-base-cushion/common/icon_arrow_2.png) no-repeat; content:'';}
+.box_color_face .list_face li {float:left; position:relative; width:195px; height:243px; margin-left:40px; font-size:19px; line-height:24px; color:#333;}
+.box_color_face .list_face li .img {margin-bottom:11px; border:1px solid #e0e0e0;}
+.box_color_face .list_face li .txt_tit {position:absolute; top:-17px; right:-21px; width:64px; height:64px; border-radius:100%; border-style:solid; border-width:1px; background-color:#fff; font-size:22px; line-height:64px; font-family:'Arita-SemiBold;'; text-align:center;}
+.box_color_face .list_face li.li_1 .txt_tit {border-color:#faccd2; color:#ff9dac;}
+.box_color_face .list_face li.li_2 .txt_tit {border-color:#d2c4e4; color:#b49bd4;}
+.box_color_face .list_face li.li_3 .txt_tit {border-color:#c0e3dc; color:#7fd0c0;}
+.box_color_face .list_face li.li_4 .txt_tit {border-color:#eed692; font-size:21px; color:#e1b53a;}
+.box_color_face .list_face li.li_1,
+.box_color_face .list_face li.li_3 {margin-left:0;}
+.box_color_face .txt_line {position:relative; font-size:19px; line-height:20px; color:#333; text-align:center;}
+.box_color_face .txt_line:before,
+.box_color_face .txt_line:after {display:inline-block; position:relative; top:-2px; width:70px; height:1px; background-color:#999; vertical-align:middle; content:'';}
+.box_color_face .txt_line:before {margin-right:10px;}
+.box_color_face .txt_line:after {margin-left:10px;}
+.box_color_face .box_face_2 {float:left; position:relative; width:405px; font-size:22px; line-height:30px; color:#333;}
+.box_color_face .box_face_2 .img {margin-bottom:25px; border:1px solid #f8ccd0;}
+.box_color_face .box_face_2 .txt_tit {position:absolute; top:-20px; right:-40px; width:131px; height:60px; padding:39px 0 32px; border-radius:100%; border:1px solid #f8cbd0; background: #f7e0ed; background: -moz-linear-gradient(-45deg, #f7e0ed 0%, #faf4d8 73%, #e6f4d3 100%); background: -webkit-linear-gradient(-45deg, #f7e0ed 0%,#faf4d8 73%,#e6f4d3 100%); background: linear-gradient(135deg, #f7e0ed 0%,#faf4d8 73%,#e6f4d3 100%); font-size:25px; line-height:30px; color:#333; font-family:'Arita-SemiBold'; text-align:center;}
+.box_color_face .box_face_2 .txt_exp {font-family:'Arita-SemiBold';}
+
+/* 주요 성분 */
+.box_bio {position:relative; height:288px; margin:45px 0 85px; padding:62px 0 0 479px; border:1px solid #f1f1f1; font-size:19px; line-height:30px; color:#333;}
+.box_bio:before {display:block; position:absolute; top:0; left:0; width:480px; height:350px; background:url(/kr/ko/product/detail/super-vital-base-cushion/common/bg_product_4.png) no-repeat; content:'';}
+.box_bio .txt_tit,
+.box_powder .txt_tit {margin-bottom:20px; font-size:22px; font-family:'Arita-SemiBold';}
+.box_bio .txt_tit {margin-bottom:13px;}
+.box_bio .txt_exp_1 {margin-bottom:13px;}
+.box_bio .txt_exp_2 {font-size:14px; line-height:22px; color:#666;}
+.box_bio .txt_exp_2 span {font-size:15px; font-family:'Arita-SemiBold';}
+.box_powder {position:relative; height:236px; margin:48px 0 90px; padding:112px 0 0 479px; border:1px solid #f1f1f1; font-size:19px; line-height:30px; color:#333;}
+.box_powder:before {display:block; position:absolute; top:0; left:0; width:480px; height:350px; background:url(/kr/ko/product/detail/super-vital-base-cushion/common/bg_product_5.png) no-repeat; content:'';}
+
+/* 사용방법 */
+.type_use .ac_subtit {margin-top:0;}
+.list_use {margin:50px 0 85px; font-size:0;}
+.list_use > li {display:inline-block; width:310px; margin-left:15px; vertical-align:top;}
+.list_use > li p{position:relative; height:448px; border:1px solid #cfbfe2; background-color:#fff; font-size:18px; line-height:27px; color:#333; vertical-align:top;}
+.list_use > li:first-child {margin-left:0;}
+.list_use > li p:before {display:block; width:100%; height:300px; margin-bottom:35px; background-repeat:no-repeat; content:'';}
+.list_use > li.li_1 p:before {background:url(/kr/ko/product/detail/super-vital-base-cushion/common/img_exp_5_1.png);}
+.list_use > li.li_2 p:before {background:url(/kr/ko/product/detail/super-vital-base-cushion/common/img_exp_5_2.png);}
+.list_use > li.li_3 p:before {background:url(/kr/ko/product/detail/super-vital-base-cushion/common/img_exp_5_3.png);}
+.list_makeup {margin-top:40px;}
+.list_makeup:after,
+.list_makeup > li ul:after {display:block; clear:both; visibility:hidden; height:0; content:'';}
+.list_makeup > li {float:left; font-size:18px; line-height:27px;}
+.list_makeup h4 {margin-bottom:15px; font-size:22px; font-family:'Arita-SemiBold';}
+.list_makeup > li.li_prev {width:634px;}
+.list_makeup > li.li_next {margin-left:15px; width:310px;}
+.list_makeup > li ul,
+.list_makeup > li .box_makeup {border:1px solid #cfbfe2; background-color:#fff;}
+.list_makeup > li li {float:left; width:316px;}
+.list_makeup > li li,
+.list_makeup > li .box_makeup {position:relative; height:508px;}
+.list_makeup > li li:before,
+.list_makeup > li .box_makeup:before {display:block; width:100%; height:340px; margin-bottom:30px; background-repeat:no-repeat; content:'';}
+.list_makeup > li li.li_1:before {background:url(/kr/ko/product/detail/super-vital-base-cushion/common/img_exp_5_4.png);}
+.list_makeup > li li.li_1:after {display:block; position:absolute; top:38px; right:0; width:1px; height:465px; border-left:1px dashed #ccc; content:'';}
+.list_makeup > li li.li_2:before {background:url(/kr/ko/product/detail/super-vital-base-cushion/common/img_exp_5_5.png);}
+.list_makeup > li .box_makeup:before {background:url(/kr/ko/product/detail/super-vital-base-cushion/common/img_exp_5_6.png);}
+.list_makeup > li .txt_tit {position:absolute; top:35px; left:0; width:100%; font-size:20px; color:#333; text-align:center;}
+.list_makeup > li .txt_exp {margin-top:12px; font-size:14px; line-height:22px;}
+
+@media screen and (max-width: 1350px) {
+    .gnb_super_vital {left: inherit; right: 0; margin: 0; z-index: 1000; } 
+}
+@media all and (max-width:640px) {
+    .super_vital .box_unit {max-width:100%;}
+    .gnb_super_vital li:after,
+    .gnb_super_vital li:before {display:none;}
+    .gnb_super_vital li.on {padding-left:0;}
+    #content.super_vital {padding:0;}
+    .br {display:inline;}
+    .temp #header {height:310px;}
+    .content_box {overflow:hidden; opacity:1; -webkit-transform:translate3d(0,0,0); -moz-transform:translate3d(0,0,0); -o-transform:translate3d(0,0,0); -ms-transform:translate3d(0,0,0); transform:translate3d(0,0,0);}
+
+    .gnb_super_vital {position:relative; top:auto; left:auto; right:auto; width:100%; min-width:640px; z-index:1000}
+    .gnb_super_vital ul {width:100%; background:#fff; border-style:solid; border-width:0 0 1px; border-color:#9477b7; box-sizing:border-box}
+    .gnb_super_vital ul:after {display:block; clear:both; content:""}
+    .gnb_super_vital ul li {float:left; width:50%; margin:0 0; border-width:1px 0 0 1px; border-style:solid; border-color:#9477b7; box-sizing:border-box; line-height:1}
+    .gnb_super_vital ul li:before {display:none}
+    .gnb_super_vital ul li.on:before {display:none}
+    .gnb_super_vital ul li.on a {position:relative; height:84px; padding:30px 0 0; margin:-1px 0; background:#9477b7; color:#fff;}
+    .gnb_super_vital ul li:nth-child(odd) {border-left:none;}
+    .gnb_super_vital ul li:nth-child(even) {border-right:none;}
+    .gnb_super_vital ul li a {-webkit-transition:all .2s linear; transition:all .2s linear;}
+
+    .gnb_super_vital ul li a {display:block; height:82px; padding:30px 0 0; text-align:center; vertical-align:middle; font-size:23px; font-family:'RixSGo M','Rix고딕 M'; color:#333; box-sizing:border-box;}
+    .gnb_super_vital.fixed {top:0}
+    .gnb_super_vital.fixed+.ac_buy {margin-top:0; }
+    .gnb_super_vital+.ac_buy {padding-top:167px; margin-top:-167px;}
+
+    /* COMMON */
+    .br {display:inline;}
+    .mbr {display:block;}
+    br.br {display:none;}
+    br.mbr {display:block;}
+    .txt01 {font-size:33px; line-height:40px}
+    .inline_block {display:inline;}
+    .mo_block {display:block;}
+    .mo_block.type_1 {margin-top:3%;}
+    .h2_tit,
+    .txt_tit {font-size:35px;}
+    .btn .ac_buybtn.pcbtn {display:none;}
+    .btn .ac_buybtn.mobtn {display:inline-block;}
+    .txt_inf {font-size:21px; line-height:28px;}
+    .ac_buybtn {height:60px; padding:0 50px; font-size:22px; line-height:60px;}
+    .ac_subtit { font-size:22px;}
+    .h4_tit {height:76px; border-top:1px solid #99bed6; font-size:21px; line-height:76px;}
+
+    .visual_super_vital {overflow:hidden; position:relative; height:0; padding-top:79.53125%; background-image:url(/kr/ko/product/detail/super-vital-base-cushion/mcommon/bg_first.png); background-size:cover;}
+    .visual_super_vital .box_unit {-webkit-box-sizing:border-box; box-sizing:border-box; position:absolute; top:0; left:0; width:100%; min-height:0; padding-top:19%; padding-right:43.59%;}
+    .visual_super_vital .box_unit h2 {margin-bottom:15px; font-size:30px; line-height:40px;}
+    .visual_super_vital .box_unit .txt_1 {margin-bottom:10px; font-size:24px; line-height:1.3em;}
+    .visual_super_vital .box_unit .txt_2 {padding-left:10px; padding-right:10px; font-size:20px;}
+    .box_product {width:100%; padding-left:0;}
+    .box_info_1,
+    .box_info_1_1 {margin-top:30px; padding:0 30px;}
+    .box_product {margin-top:40px;}
+    .box_product .box_unit {padding-left:0; text-align:center;}
+    .box_product .buy_infor {margin-top:20px;}
+    .box_product .img {width:100%;}
+    .box_product .txt_price {top:130px; font-size:25px;}
+    .box_product .txt_info {top:620px; font-size:21px; line-height:28px;}
+    .box_product .h2_tit {margin-top:35px; font-size:40px; font-family:'Arita-SemiBold';}
+    .box_product .txt_sub_tit {margin-bottom:20px; font-size:20px;}
+    .tit_type {font-size:22px; line-height:30px;}
+    .tit_exp {font-size:20px;}
+    .buy_infor {margin-top:32px;}
+    .buy_infor li {padding:0 25px; font-size:22px; line-height:40px;}
+    .box_product .box_buy {margin-top:97px; padding-top:0;}
+    .box_product .btn {position:relative;}
+    .list_super_vital {margin-top:40px; padding:0 40px;}
+    .list_super_vital > li {-webkit-box-sizing:border-box; box-sizing:border-box; min-height:151px; margin-top:40px; padding:15px 0 0 160px; font-size:20px; line-height:27px; color:#333;}
+    .list_super_vital > li .txt_tit {margin-bottom:5px; font-size:20px; line-height:1.3em;}
+    .list_super_vital > li:before {top:0; width:151px; height:151px;}
+    .list_super_vital > li.li_1:before {background-image:url(/kr/ko/product/detail/super-vital-base-cushion/mcommon/img_exp_1_1.png);}
+    .list_super_vital > li.li_2:before {background-image:url(/kr/ko/product/detail/super-vital-base-cushion/mcommon/img_exp_1_2.png);}
+    .list_super_vital > li.li_3:before {background-image:url(/kr/ko/product/detail/super-vital-base-cushion/mcommon/img_exp_1_3.png);}
+    .list_super_vital > li.li_4:before {background-image:url(/kr/ko/product/detail/super-vital-base-cushion/mcommon/img_exp_1_4.png);}
+    .list_super_vital > li.li_3 .stit {margin-top:8px; font-size:15px; line-height:1.5em;}
+    .list_super_vital > li.li_3 .stxt {font-size:15px; line-height:1.5em;}
+    .box_product_bg {padding-bottom:78.125%; background-image:url(/kr/ko/product/detail/super-vital-base-cushion/mcommon/bg_product_1.jpg); background-size:contain;}
+    .area_color_1 .box_color,
+    .area_color_1 .list_color {float:none; width:100%; margin:0;}
+    .area_color_1 {padding-top:50px;}
+    .area_color_1 .list_color {width:368px; margin:0 auto; padding-top:368px; padding-right:0; background-image:url(/kr/ko/product/detail/super-vital-base-cushion/mcommon/img_exp_2.png); background-size:cover;}
+    .area_color_1 .list_color li .txt_tit {margin-bottom:7px; font-size:22px;}
+    .area_color_1 .list_color li {width:116px; margin-left:-5px; font-size:20px; line-height:24px;}
+    .area_color_1 .box_color {padding-top:40px; padding-left:0; font-size:20px; line-height:28px;}
+    .area_color_1 .box_color .txt_tit {margin-bottom:8px; font-size:22px;}
+    .area_color_2 {margin-top:60px;}
+    .area_color_2 .tit_type {font-size:35px; line-height:45px;}
+    .area_color_2 .list_color_img {width:100%; height:0; margin-top:35px; padding-top:48.4375%; background-image:url(/kr/ko/product/detail/super-vital-base-cushion/mcommon/bg_product_3.png); background-size:cover;}
+    .area_color_2 .list_color_img li {font-size:20px;}
+    .area_color_2 .list_color_img li.li_1 {top:5.1%;}
+    .area_color_2 .list_color_img li.li_2 {top:27.7%;}
+    .area_color_2 .list_color_img li.li_3 {top:51.6%;}
+    .area_color_2 .list_color_img li.li_4 {top:77%;}
+    .box_color_face {padding:0 20px;}
+    .box_color_face .box_face_1 {float:none; width:100%; padding-right:0; padding-bottom:150px;}
+    .box_color_face .box_face_1:after {top:auto; bottom:50px; left:50%; width:130px; height:64px; margin-left:-65px; background-image:url(/kr/ko/product/detail/super-vital-base-cushion/mcommon/icon_arrow_2.png);}
+    .box_color_face .list_face li {-webkit-box-sizing:border-box; box-sizing:border-box; width:50%; height:0; margin:0; padding:54.66666666666667% 0 0; font-size:22px;}
+    .box_color_face .list_face li > div {-webkit-box-sizing:border-box; box-sizing:border-box; position:absolute; top:0; left:0; width:100%; padding:0 20px;}
+    .box_color_face .list_face li img {width:100%;}
+    .box_color_face .list_face li .txt_tit {top:-30px; right:0; width:86px; height:86px; line-height:86px;}
+    .box_color_face .txt_line span {display:inline-block; position:relative; z-index:1; padding:0 10px; background-color:#fff;}
+    .box_color_face .txt_line:before,
+    .box_color_face .txt_line:after {position:absolute; top:50%; width:50%; margin:0;}
+    .box_color_face .txt_line:before {left:0;}
+    .box_color_face .txt_line:after {right:0;}
+    .box_color_face .box_face_2 {-webkit-box-sizing:border-box; box-sizing:border-box; width:100%; height:0; padding-top:112.5%;}
+    .box_color_face .box_face_2 .box_img {-webkit-box-sizing:border-box; box-sizing:border-box; position:absolute; top:0; left:0; width:100%; padding:0 20px;}
+    .box_color_face .box_face_2 img {width:100%;}
+    .box_color_face .box_face_2 .txt_tit {-webkit-box-sizing:border-box; box-sizing:border-box; top:-59px; right:0; width:177px; height:177px; padding:58px 0 0; font-size:30px; line-height:35px;}
+    .box_color_face .box_face_2 .txt_exp {font-size:30px;}
+    .type_ingredient .box_unit {padding:0 20px;}
+    .box_bio {height:auto; margin-bottom:60px; padding:0 0 40px; font-size:20px; line-height:28px;}
+    .box_bio .txt_tit,
+    .box_powder .txt_tit {font-size:25px;}
+    .box_bio .txt_exp_2,
+    .box_powder .txt_exp_2 {font-size:15px;}
+    .box_bio:before {position:relative; width:100%; height:0; margin-bottom:40px; padding-top:58.36120401337793%; background-image:url(/kr/ko/product/detail/super-vital-base-cushion/mcommon/bg_product_4.png); background-size:contain;}
+    .box_powder {height:auto; margin-bottom:60px; padding:0 0 40px; font-size:20px; line-height:28px;}
+    .box_powder:before {position:relative; width:100%; height:0; margin-bottom:40px; padding-top:58.36120401337793%; background-image:url(/kr/ko/product/detail/super-vital-base-cushion/mcommon/bg_product_5.png); background-size:contain;}
+    .type_use .box_unit {padding:0 15px;}
+    .list_use {margin-bottom:60px;}
+    .list_use > li {-webkit-box-sizing:border-box; box-sizing:border-box; width:50%; margin-left:0; padding:0 5px;}
+    .list_use > li.li_3 {margin-top:50px;}
+    .list_use > li p {height:430px;}
+    .list_use > li p:before {height:0; margin-bottom:20px; padding-top:102.3890784982935%; background-size:cover;}
+    .list_use > li.li_1 p:before {background-image:url(/kr/ko/product/detail/super-vital-base-cushion/mcommon/img_exp_5_1.png);}
+    .list_use > li.li_2 p:before {background-image:url(/kr/ko/product/detail/super-vital-base-cushion/mcommon/img_exp_5_2.png);}
+    .list_use > li.li_3 p:before {background-image:url(/kr/ko/product/detail/super-vital-base-cushion/mcommon/img_exp_5_3.png);}
+    .list_makeup {font-size:0;}
+    .list_makeup > li {display:inline-block; float:none;}
+    .list_makeup > li li:before,
+    .list_makeup > li .box_makeup:before {margin-bottom:20px; height:0; padding-top:102.3890784982935%; background-size:cover;}
+    .list_makeup > li li.li_1:before {background-image:url(/kr/ko/product/detail/super-vital-base-cushion/mcommon/img_exp_5_4.png); background-size:contain;}
+    .list_makeup > li li.li_2:before {background-image:url(/kr/ko/product/detail/super-vital-base-cushion/mcommon/img_exp_5_5.png); background-size:contain;}
+    .list_makeup .li_next {margin-top:40px;}
+    .list_makeup > li .box_makeup:before {background-image:url(/kr/ko/product/detail/super-vital-base-cushion/mcommon/img_exp_5_6.png);}
+    .list_makeup > li .txt_tit {top:15px;}
+    .list_makeup > li .txt_exp {margin-top:5px; font-size:15px;}
+    .list_makeup > li li,
+    .list_makeup > li .box_makeup {height:468px;}
+    .list_makeup > li li.li_1:after {top:25px; height:448px;}
+}

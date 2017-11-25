@@ -1,0 +1,403 @@
+@charset "utf-8";
+
+/* temp */
+@font-face {
+    font-family:'Arita-SemiBold'; 
+    font-style: normal; 
+    font-weight: normal; 
+    src: url(/font/Arita-SemiBold.eot); 
+    src: url(/font/Arita-SemiBold.eot?#iefix) format('embedded-opentype'),
+         url(/font/Arita-SemiBold.woff) format('woff'),
+         url(/font/Arita-SemiBold.ttf) format('truetype')
+}
+
+@font-face {
+    font-family:'Arita-Medium'; 
+    font-style: normal; 
+    font-weight: normal; 
+    src: url(/font/Arita-Medium.eot); 
+    src: url(/font/Arita-Medium.eot?#iefix) format('embedded-opentype'),
+         url(/font/Arita-Medium.woff) format('woff'),
+         url(/font/Arita-Medium.ttf) format('truetype')
+}
+
+/* RESET */
+.temp #header {position:relative; width:100%; height:95px; z-index:900; background:url(/ux/test/kr/ko/product/detail/golden_glow_face_oil/temp/@header.jpg) no-repeat 50% 0;}
+.temp #footer {clear: both; display: block; height:107px; border-top: 1px solid #e5e5e5; background:url(/ux/test/kr/ko/product/detail/golden_glow_face_oil/temp/@footer.jpg) no-repeat 50% 0;}
+
+/* COMMON */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, form, fieldset, p, button {font-family:"Arita-Medium"; letter-spacing:-0.5px}
+#content.tripleLift strong {font-weight:normal;}
+#wrap {padding:0;}
+#content.tripleLift {padding:0; }
+#content.tripleLift .breadcrumb {text-align:left; max-width:960px; width:auto;}
+.videobtn {position:absolute; display:inline-block; top:50%; left:50%; margin-top:-34px; margin-left:-33px;line-height:1; font-size:0;}
+.videobtn a {display:inline-block; width:67px; height:65px; background:url(/kr/ko/product/detail/triple-lift-serum/common/btn_video.png) no-repeat 50% 50%;}
+
+.triple_subtit {padding-top:9.4%; font-family:"Arita-SemiBold"; font-size:20px;}
+.triple_subtit span {position:relative;}
+.triple_subtit span:before {display:block; position:absolute; top:7px; left:-60px; width:50px; height:2px; border-top:1px solid #879bb0; border-bottom:1px solid #879bb0; content:"";} 
+.triple_subtit span:after {display:block; position:absolute; top:7px; right:-60px; width:50px; height:2px; border-top:1px solid #879bb0; border-bottom:1px solid #879bb0; content:"";}
+
+.fn01 {font-size:35px; line-height:44px}
+.fn02 {font-size:22px; line-height:30px}
+.fn03 {font-size:19px; line-height:26px}
+.fbold {font-family:"Arita-SemiBold"; font-weight:normal;}
+.color01 {color:#22537b}
+.br {display:block;}
+
+
+/* CONTENT */
+.tripleLift {color:#333; text-align:center;}
+.tripleLift .inner {max-width:964px; margin:0 auto;}
+
+.ll_layer {position:fixed; width:100%; height:100%; top:0; left:0; right:0; bottom:0; background:rgba(0,0,0,0.6); z-index:1000; }
+.ll_layer .layer_inner {display:table; max-width:964px; width:100%; height:100%; margin:0 auto;}
+.ll_layer .layer_inner .first_video {display:table-cell; width:100%; vertical-align:middle}
+.ll_layer .layer_inner .first_video > div {position:relative;vertical-align:middle}
+.ll_layer .layer_inner img {width:100%;}
+.ll_layer .layer_inner iframe {position:absolute; top:0; left:0%; right:0%; bottom:0; width:100%;  height:100%;}
+.ll_layer .btn .btn_close {display:block; position:absolute; right:0; top:-20px; width:20px; height:20px; background:url(/kr/ko/product/detail/live_lift_serum/common/btn_close.png) no-repeat 50% 0;text-indent:-9999em}
+
+/* First */
+.triple_first {background:url(/kr/ko/product/detail/triple-lift-serum/common/bg_first.jpg) no-repeat 50% 0; }
+.triple_first .inner {position:relative; min-height:726px;}
+.triple_first .videobtn {top:51%; left:53%;}
+
+/* 제품소개 */
+.triple_intro {background:url(/kr/ko/product/detail/triple-lift-serum/common/bg_group01.jpg) no-repeat 50% 100%;}
+	.triple_intro .hashtags {margin-top:4.3%; font-size:22px; color:#22537b; line-height:30px}
+	.triple_intro .hashtags + .fn01 {margin-top:1.9%;}
+	.detail_introduce {overflow:hidden; margin-top:4.6%;}
+	.detail_introduce .function_area .img img {width:100%;}
+	.function_area {position:relative;}
+	.function_lst li {position:absolute; width:27.2%; top:31.7%; background:#fff; background:rgba(256,256,256,0.8); font-size:19px; line-height:24px;}
+	.function_lst li > span {display:block; height:100%; padding:21.4% 0 20.7%;}
+	.function_lst li strong {font-family:"Arita-SemiBold" }
+	.function_lst li:first-child {left:11.4%;}
+	.function_lst li:first-child:after {position:absolute; right:-17%; top:81px; width:17%; height:1px; background:#fff;content:"";}
+	.function_lst li:first-child+li {right:12%;}
+	.function_lst li:first-child+li:after {position:absolute; left:-17%; top:81px; width:17%; height:1px; background:#fff;content:"";}
+
+	.introduce_detail {padding:3.1% 8.3%;  border:1px solid #b4bcc8;}
+	.introduce_detail .hardZone_title {font-size:24px;line-height:35px;}
+	.introduce_detail .hardZone_title strong  {display:block; color:#22537b; font-family:"Arita-SemiBold"}
+	.introduce_detail .hardZone_detail {padding-top:25px}
+	.introduce_detail .hardZone_detail:after {display:block; clear:both; content:"" }
+	.introduce_detail .hardZone_detail > * {float:left;}
+	.introduce_detail .hardZone_detail .img {overflow:hidden; width:25%; margin-right:5%; margin-top:-8px;}
+	.introduce_detail .hardZone_detail .img img {width:100%;}
+	.introduce_detail .hardZone_detail .txt {overflow:hidden;width:70%; text-align:left;}
+	.introduce_detail .hardZone_detail ul {padding-top:4.4%; line-height:32px; font-size:18px; text-align:left;}
+	.introduce_detail .hardZone_detail ul span:after {display:inline-block; content:":";}
+	.introduce_detail .hardZone_detail .cf {margin-top:1.8%; font-size:18px; color:#22537b; font-family:"Arita-SemiBold" }
+
+	.careZone {margin-top:7.3%;}
+	.careZone:after {display:block; clear:both; content:"" }
+	.careZone > .txt01 {font-size:22px; color:#22537b;}
+	.careZone > .txt01 sup {font-size:14px;}
+	.careZone > .fn01 {margin-top:2.2%;}
+	.careZone > .fn01 strong {font-family:"Arita-SemiBold"}
+	.careZone > .fn01 sup {font-size:20px;}
+	.careZone .careLst {margin-top:5.2%;}
+	.careZone .careLst:after {display:block; clear:both; content:"" }
+	.careZone .careLst li {float:left; position:relative; width:32.2%; color:#fff;}
+	.careZone .careLst li > img {width:100%;}
+	.careZone .careLst li+li {margin-left:1.7%;}
+	.careZone .careLst a {position:absolute; top:0; left:0; width:100%; height:100%; color:#fff;}
+	.careZone .careLst li:first-child {background:url(/kr/ko/product/detail/triple-lift-serum/common/img_care_off01.jpg) no-repeat 0 0; background-size:100% auto;}
+	.careZone .careLst li:first-child+li {background:url(/kr/ko/product/detail/triple-lift-serum/common/img_care_off02.jpg) no-repeat 0 0; background-size:100% auto;}
+	.careZone .careLst li:first-child+li+li {background:url(/kr/ko/product/detail/triple-lift-serum/common/img_care_off03.jpg) no-repeat 0 0; background-size:100% auto;}
+	.careZone .careLst .off_area {height:100%; font-size:19px; background:url(/kr/ko/product/detail/triple-lift-serum/common/btn_view.png) no-repeat 50% 73%;}
+	.careZone .careLst .step {display:block; padding-top:33.2% }
+	.careZone .careLst .step:before {display:inline-block; content:"-";}
+	.careZone .careLst .step:after {display:inline-block; content:"-";}
+	.careZone .careLst .off_area .txt {margin-top:12px; line-height:27px; font-size:19px;}
+	.careZone .careLst .off_area strong {display:block; font-family:"Arita-SemiBold"; font-size:25px;}
+	.careZone .careLst .on_area {display:none; height:100%; font-size:19px; line-height:30px; background:rgba(0,0,0,0.1);}
+	.careZone .careLst .on_area .txt {padding-top:43.5%; }
+	/*.careZone .careLst a:hover .off_area {display:none}*/
+	/*.careZone .careLst a:hover .on_area {display:block; opacity:1}*/
+	.careZone .careLst a.on .on_area {display:block;} 
+	.careZone .careLst a.on .off_area {display:none;} 
+	.careLst + .fn03 {margin-top:3.7%;}
+
+	.triple_effect {position:relative; margin:6.6% 0 3.7%; padding:6.1% 0 0; border-top:1px dashed #90a7bd;}
+	.triple_effect .fn01 sup {font-size:18px;}
+	.triple_effect .effect_txt {margin:0 27%; padding:156px 0 150px; font-size:22px; color:#fff; text-align:left;}
+	.triple_effect .effect_txt .fbold {display:block; margin-left:-30px; margin-bottom:2px; font-size:97px; letter-spacing:-7px; line-height:1.2}
+	
+	.videoZone.vd01 {display:none; }
+
+/* 이런분들께추천 */
+.triple_recomend {padding-bottom:4.7%; background:#ebedef}
+	.triple_recomend .recomendLst {padding:9.3% 0 3.8% 40%; font-size:19px; line-height:34px; text-align:left; color:#fff; background:url(/kr/ko/product/detail/triple-lift-serum/common/img_recomend.png) no-repeat 50% 0; background-size:100% auto;}
+	.triple_recomend .recomendLst li:before {display:inline-block; width:15px; height:18px; margin-right:10px; background:url(/kr/ko/product/detail/triple-lift-serum/common/bul_arrow.png) no-repeat 0 50%; content:""; vertical-align:-1px}
+	.triple_recomend .recomendLst dt {margin-bottom:8px;font-size:19px; font-family:"Arita-SemiBold"}
+	.triple_recomend .recomendLst dd:before {display:inline-block; width:15px; height:18px; margin-right:10px; background:url(/kr/ko/product/detail/triple-lift-serum/common/bul_arrow.png) no-repeat 0 50%; content:""; vertical-align:-1px}
+	.triple_recomend .videoZone {position:relative; margin-top:4.2%;}
+	.triple_recomend .videoZone img {width:100%;}
+	.triple_recomend .videoZone iframe {position:absolute; top:0; left:0; bottom:0; right:0; width:100%; height:100%; z-index:100;}
+	.triple_recomend .videoZone .videobtn {width:100%; height:100%; left:0; top:0; margin:0;}
+	.triple_recomend .videoZone .videobtn a {display:block; width:100%; height:100%;}
+
+/* 제품 구매 */
+.triple_buy {}
+	.triple_buy .buy_infor {margin-top:29px;}
+	.triple_buy .buy_infor:after {display:block; clear:both; content:""}
+	.triple_buy .buy_infor li {float:left; padding:4px 10px 2px; margin-left:5px; border:1px solid #879bb0; font-size:14px; font-family:"Arita-Medium"; line-height:20px}
+	.triple_buy .buy_infor li:first-child {margin:0}
+	.triple_buybtn {display:inline-block; height:34px; padding:0 33px; border:1px solid #22537b; font-family:"Arita-SemiBold"; line-height:34px; font-size:16px; background:#22537b; color:#fff;}
+
+	.triple_buy .buybox {padding-top:9%;}
+	.triple_buy .buybox:after {display:block; clear:both; content:"" }
+	.triple_buy .buybox > * {float:left; width:50%;}
+	.triple_buy .buybox .img {text-align:right;}
+	.triple_buy .buybox .infor_area {text-align:left;}
+	.triple_buy .buybox .infor_area dt {font-size:35px; line-height:1.2;}
+	.triple_buy .buybox .infor_area dt span {display:block; margin-top:5px; font-size:17px; color:#22537b; font-family:"Arita-SemiBold"}
+	.triple_buy .buybox .desc {margin-top:6.1%; font-size:18px; line-height:26px}
+	.triple_buy .buybox .price {margin-top:18px; font-size:16px;}
+	.triple_buy .buybox .btn {margin-top:30px}
+	.triple_buy .buybox .btn .mobtn {display:none}
+
+/* 사용법 */
+.triple_using {padding-bottom:14px;}
+	.usingZone {overflow:hidden;padding:5.2% 0 4%; margin-top:5%; border:1px solid #879bb0; text-align:left;}
+	.usingZone > * {float:left;}
+	.usingZone .img {width:35%;text-align:right;}
+	.usingZone .cf {font-size:18px; line-height:27px;}
+	.usingZone .using_oder {width:65%; padding-top:17px;}
+	.usingZone .using_oder .order_tit {margin-top:5%; font-size:18px; font-family:"Arita-SemiBold"}
+	.usingZone .using_oder ol {display:inline-block; margin-top:6px; font-size:18px; line-height:1.5}
+	.usingZone .using_oder li {float:left;}
+	.usingZone .using_oder li+li:before {display:inline-block; margin:0 12px; content:"▶"; color:#8ea9c0;}
+	.tripleResult {margin:4.7% 0 0; font-size:14px; color:#333;line-height:23px; text-align:left;}
+	.tripleResult dd:before {display:inline-block; content:"-"; margin-right:2px; margin-left:15px;}
+	.tripleResult .cf {padding-left:15px;}
+
+
+
+
+
+/* Media */
+@media screen and (max-width: 1350px) {
+}
+@media all and (max-width:940px) {
+	.ll_layer .layer_inner iframe {left:5%; right:5%;width:90%;}
+	.ll_layer .btn .btn_close {right:5%;}
+
+}
+@media all and (max-width:840px) {
+	/* 제품소개 */
+	.triple_recomend .recomendLst {font-size:16px; line-height:24px}
+	.introduce_detail .hardZone_detail ul {padding-top:0;}
+	.careZone .careLst .off_area {background:url(/kr/ko/product/detail/triple-lift-serum/common/btn_view.png) no-repeat 50% 85%;}
+}
+@media all and (max-width:700px) {
+	.careZone .careLst .on_area .txt {padding-top:38.5%; }
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) and (max-width:657px){
+	/* COMMON */
+	.fn03 {font-size:20px;}
+	.br {display:inline;}
+	.mbr {display:block;}
+	.triple_subtit {padding-top:50px; font-size:22px; font-family:'RixSGo M','Rix고딕 M','NanumGothic','Nanum Gothic','나눔고딕','돋움',Dotum,Helvetica,'Apple SD Gothic Neo',Sans-serif; font-weight:normal}
+	.triple_subtit span:before {top:11px;}
+	.triple_subtit span:after {top:11px;}
+	/* first */
+	.triple_first {background: url(/kr/ko/product/detail/triple-lift-serum/mcommon/bg_first.jpg) no-repeat 50% 0;}
+	.triple_first .inner {min-height:499px;}
+	.triple_first .videobtn {display:none;}
+	/* 제품 소개 */
+	.triple_intro {background: url(/kr/ko/product/detail/triple-lift-serum/mcommon/bg_group01.jpg) no-repeat 50% 100%;}
+	.triple_intro .triple_subtit {padding-top:60px;}
+	.triple_intro .hashtags {padding:0 20%; font-size:23px;}
+	.triple_intro .hashtags + .fn01 {padding:0 10%; font-size:33px; word-break:keep-all}
+	.detail_introduce {margin:48px 20px 0;}
+	.detail_introduce .copy {font-size:20px;}
+
+	.function_lst li {width:215px; padding-right:30px; font-size:20px; line-height:27px; text-align:right; letter-spacing:-1px}
+	.function_lst li strong {display:block;}
+	.function_lst li:first-child {top:74px; left:40px;}
+	.function_lst li:first-child:after {width:109px; top:90px; right:-109px;}
+	.function_lst li:first-child+li {right:initial; top:282px; left:40px;}
+	.function_lst li:first-child+li:after {width:109px; top:90px; left:245px }
+
+	.introduce_detail {padding:0 19px 48px;}
+	.introduce_detail .hardZone_title {margin-top:46px; font-size:28px;line-height:35px}
+	.introduce_detail .hardZone_detail > * {float:none;}
+	.introduce_detail .hardZone_detail .img {width:100%;}
+	.introduce_detail .hardZone_detail .img img {height:100%; width:auto;}
+	.introduce_detail .hardZone_detail .txt {overflow:visible; width:100%; text-align:center;}
+	.introduce_detail .hardZone_detail .txt li {text-align:center; font-size:20px; line-height:27px}
+	.introduce_detail .hardZone_detail .txt li + li {margin-top:12px;}
+	.introduce_detail .hardZone_detail .txt li span {display:block; color:#22537b;}
+	.introduce_detail .hardZone_detail .txt li span:before {display:inline-block; content:"<"}
+	.introduce_detail .hardZone_detail .txt li span:after {display:inline-block; content:">"}
+	.introduce_detail .hardZone_detail .txt li span.mbr {color:#333;}
+	.introduce_detail .hardZone_detail .txt li span.mbr:before,
+	.introduce_detail .hardZone_detail .txt li span.mbr:after {display:none}
+	.introduce_detail .hardZone_detail .txt .cf {margin-top:33px; font-size:20px;}
+
+	.videoZone.vd01 {display:block; height:338px; margin:30px 0 0;}
+
+	.careZone {margin-top:67px;}
+	.careZone > .txt01 {font-size:23px;}
+	.careZone > .fn01 {font-size:33px; padding:0 7%;}
+	.careZone .careLst li {float:none; width:100%; }
+	.careZone .careLst li+li {margin:20px 0 0;}
+	.careZone .careLst li:first-child {background: url(/kr/ko/product/detail/triple-lift-serum/mcommon/img_care_off01.jpg) no-repeat 0 0; background-size: 100% auto;}
+	.careZone .careLst li:first-child+li {background: url(/kr/ko/product/detail/triple-lift-serum/mcommon/img_care_off02.jpg) no-repeat 0 0; background-size: 100% auto;}
+	.careZone .careLst li:first-child+li+li {background: url(/kr/ko/product/detail/triple-lift-serum/mcommon/img_care_off03.jpg) no-repeat 0 0; background-size: 100% auto;}
+	.careZone .careLst .off_area {font-size:23px;     background: url(/kr/ko/product/detail/triple-lift-serum/mcommon/btn_view.png) no-repeat 50% 211px;}
+	.careZone .careLst .off_area .txt {margin-top:20px; line-height:32px}
+	.careZone .careLst .off_area strong {font-size:30px;}	
+	.careZone .careLst .step {padding-top:84px;}
+	.careZone .careLst .on_area {font-size:23px;}
+	.careZone .careLst .on_area .txt {padding-top:111px}
+	.careLst + .fn03 {margin-top:47px;}
+
+	.triple_effect {margin-top:45px;}
+	.triple_effect .fn01 {font-size:33px; line-height:44px;}
+	.triple_effect .effect_txt {margin:0 0 0 85px; font-size:23px;}
+	.triple_effect .effect_txt strong {margin-left:-25px;}
+
+	/* 이런분들께 추천 */
+	.triple_recomend {background:none; padding:0;}
+	.triple_recomend > .inner {padding:0 20px;}
+	.triple_recomend .recomendLst {height:181px; margin:36px 0 0;  padding:45px 0 35px 102px; background: url(/kr/ko/product/detail/triple-lift-serum/mcommon/img_recomend.jpg) no-repeat 50% 0;}
+	.triple_recomend .recomendLst li {font-size:20px; line-height:34px}
+	.triple_recomend .recomendLst dt {padding-left:80px; margin-bottom:13px;}
+	.triple_recomend .recomendLst dd {font-size:20px; line-height:34px}
+
+
+	/* 제품 구매 */
+	.triple_buy {padding-bottom:3px;}
+	.triple_buy .buybox {position:relative; margin:0 20px; padding-top:50px;}
+	.triple_buy .buybox .img {position:absolute; top:402px; float:none; width:100%; text-align:center;}
+	.triple_buy .buybox .infor_area {float:none;width:100%;text-align:center; }
+	.triple_buy .buybox .infor_area dt {font-size:40px; font-family:"Arita-SemiBold"}
+	.triple_buy .buybox .infor_area dt span {margin-top:12px; font-size:20px; font-family:"Arita-Medium"}
+	.triple_buy .buybox .infor_area {display:inline-block}
+	.triple_buy .buybox .infor_area li {padding:7px 24px; font-size:22px; line-height:26px}
+	.triple_buy .buybox .desc {margin-top:20px; font-size:22px; line-height:33px}
+	.triple_buy .buybox .price {margin-top:35px; font-size:25px; }
+	.triple_buy .buybox .btn {margin-top:463px;}
+	.triple_buy .buy_infor {display:inline-block;}
+	.triple_buy .triple_buybtn {position:relative; width:179px; height:auto; padding:15px 0; font-size:22px; line-height:29px; z-index:1 ; border-color:#22537b;}
+
+	/* 사용방법 */
+	.usingZone {padding:36px 0 ;}
+	.usingZone .using_oder .order_tit {margin-top:24px;}
+	.triple_using {padding:0 20px;}
+	.triple_using .usingZone > * {float:none; text-align:center; width:100%;}
+	.tripleResult {margin-top:45px;}
+	.tripleResult {font-size:15px;  line-height:24px}
+	.tripleResult dd {padding-left:25px; position:relative;}
+	.tripleResult dd:before {position:absolute; top:0; left:0;}
+}
+@media all and (max-width:640px) {
+	/* COMMON */
+	.fn03 {font-size:20px;}
+	.br {display:inline;}
+	.mbr {display:block;}
+	.triple_subtit {padding-top:50px; font-size:22px; font-family:'RixSGo M','Rix고딕 M','NanumGothic','Nanum Gothic','나눔고딕','돋움',Dotum,Helvetica,'Apple SD Gothic Neo',Sans-serif; font-weight:normal}
+	.triple_subtit span:before {top:11px;}
+	.triple_subtit span:after {top:11px;}
+	/* first */
+	.triple_first {background: url(/kr/ko/product/detail/triple-lift-serum/mcommon/bg_first.jpg) no-repeat 50% 0;}
+	.triple_first .inner {min-height:499px;}
+	.triple_first .videobtn {display:none;}
+	/* 제품 소개 */
+	.triple_intro {background: url(/kr/ko/product/detail/triple-lift-serum/mcommon/bg_group01.jpg) no-repeat 50% 100%;}
+	.triple_intro .hashtags {padding:0 20%; font-size:23px;}
+	.triple_intro .hashtags + .fn01 {padding:0 10%; font-size:33px; word-break:keep-all}
+	.detail_introduce {margin:48px 20px 0;}
+	.detail_introduce .copy {font-size:20px;}
+
+	.function_lst li {width:215px; padding-right:30px; font-size:20px; line-height:27px; text-align:right; letter-spacing:-1px}
+	.function_lst li strong {display:block;}
+	.function_lst li:first-child {top:74px; left:40px;}
+	.function_lst li:first-child:after {width:109px; top:90px; right:-109px;}
+	.function_lst li:first-child+li {right:initial; top:282px; left:40px;}
+	.function_lst li:first-child+li:after {width:109px; top:90px; left:245px}
+
+	.introduce_detail {padding:0 19px 48px;}
+	.introduce_detail .hardZone_title {margin-top:46px; font-size:28px;line-height:35px}
+	.introduce_detail .hardZone_detail > * {float:none;}
+	.introduce_detail .hardZone_detail .img {width:100%; margin-right:0;}
+	.introduce_detail .hardZone_detail .img img {height:100%; width:auto;}
+	.introduce_detail .hardZone_detail .txt {overflow:visible; width:100%; text-align:center;}
+	.introduce_detail .hardZone_detail .txt li {text-align:center; font-size:20px; line-height:27px}
+	.introduce_detail .hardZone_detail .txt li + li {margin-top:12px;}
+	.introduce_detail .hardZone_detail .txt li span {display:block; color:#22537b;}
+	.introduce_detail .hardZone_detail .txt li span:before {display:inline-block; content:"<"}
+	.introduce_detail .hardZone_detail .txt li span:after {display:inline-block; content:">"}
+	.introduce_detail .hardZone_detail .txt li span.mbr {color:#333;}
+	.introduce_detail .hardZone_detail .txt li span.mbr:before,
+	.introduce_detail .hardZone_detail .txt li span.mbr:after {display:none}
+	.introduce_detail .hardZone_detail .txt .cf {margin-top:33px; font-size:20px;}
+
+	.videoZone.vd01 {display:block; height:338px; margin:30px 0 0;}
+
+	.careZone {margin-top:67px;}
+	.careZone > .txt01 {font-size:23px;}
+	.careZone > .fn01 {font-size:33px; padding:0 7%;}
+	.careZone .careLst li {float:none; width:100%; }
+	.careZone .careLst li+li {margin:20px 0 0;}
+	.careZone .careLst li:first-child {background: url(/kr/ko/product/detail/triple-lift-serum/mcommon/img_care_off01.jpg) no-repeat 0 0; background-size: 100% auto;}
+	.careZone .careLst li:first-child+li {background: url(/kr/ko/product/detail/triple-lift-serum/mcommon/img_care_off02.jpg) no-repeat 0 0; background-size: 100% auto;}
+	.careZone .careLst li:first-child+li+li {background: url(/kr/ko/product/detail/triple-lift-serum/mcommon/img_care_off03.jpg) no-repeat 0 0; background-size: 100% auto;}
+	.careZone .careLst .off_area {font-size:23px;     background: url(/kr/ko/product/detail/triple-lift-serum/mcommon/btn_view.png) no-repeat 50% 211px;}
+	.careZone .careLst .off_area .txt {margin-top:20px; line-height:32px}
+	.careZone .careLst .off_area strong {font-size:30px;}	
+	.careZone .careLst .step {padding-top:84px;}
+	.careZone .careLst .on_area {font-size:23px;}
+	.careZone .careLst .on_area .txt {padding-top:131px}
+	.careLst + .fn03 {margin-top:47px;}
+
+	.triple_effect {margin-top:45px;}
+	.triple_effect .fn01 {font-size:33px; line-height:44px; }
+	.triple_effect .effect_txt {margin:0 0 0 85px; font-size:23px;}
+	.triple_effect .effect_txt strong {margin-left:-25px;}
+
+	/* 이런분들께 추천 */
+	.triple_recomend {background:none; padding:0;}
+	.triple_recomend > .inner {padding:0 20px;}
+	.triple_recomend .recomendLst {height:181px; margin:36px 0 0;  padding:45px 0 35px 102px; background: url(/kr/ko/product/detail/triple-lift-serum/mcommon/img_recomend.jpg) no-repeat 50% 0;}
+	.triple_recomend .recomendLst li {font-size:20px; line-height:34px}
+	.triple_recomend .recomendLst dt {padding-left:80px; margin-bottom:13px;}
+	.triple_recomend .recomendLst dd {font-size:20px; line-height:34px}
+
+	/* 제품 구매 */
+	.triple_buy {padding-bottom:3px;}
+	.triple_buy .buybox {position:relative; margin:0 20px; padding-top:44px;}
+	.triple_buy .buybox .img {position:absolute; top:402px; float:none; width:100%; text-align:center;}
+	.triple_buy .buybox .infor_area {float:none;width:100%;text-align:center; }
+	.triple_buy .buybox .infor_area dt {font-size:40px; font-family:"Arita-SemiBold"}
+	.triple_buy .buybox .infor_area dt span {margin-top:12px; font-size:20px; font-family:"Arita-Medium"}
+	.triple_buy .buybox .infor_area {display:inline-block}
+	.triple_buy .buybox .infor_area li {padding:7px 24px; font-size:22px; line-height:26px}
+	.triple_buy .buybox .desc {margin-top:20px; font-size:22px; line-height:33px}
+	.triple_buy .buybox .price {margin-top:35px; font-size:25px; }
+	.triple_buy .buybox .btn {margin-top:463px;}
+	.triple_buy .buybox .btn .pcbtn {display:none;}
+	.triple_buy .buybox .btn .mobtn {display:inline-block;}
+	.triple_buy .buy_infor {display:inline-block;}
+	.triple_buy .triple_buybtn {position:relative; width:179px; height:auto; padding:15px 0; font-size:22px; line-height:29px; z-index:1 ; border-color:#22537b;}
+
+	/* 사용방법 */
+	.usingZone {padding:36px 0 ;}
+	.usingZone .using_oder .order_tit {margin-top:24px;}
+	.triple_using {padding:0 20px;}
+	.triple_using .usingZone > * {float:none; text-align:center; width:100%;}
+	.tripleResult {margin-top:45px;}
+	.tripleResult {font-size:15px;  line-height:24px}
+	.tripleResult dd {padding-left:25px; position:relative;}
+	.tripleResult dd:before {position:absolute; top:0; left:0;}
+
+}
+
+
+

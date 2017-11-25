@@ -1,0 +1,375 @@
+@charset "utf-8";
+
+
+
+@font-face {
+  font-family: 'Arita-Medium';
+  font-style: normal;
+  font-weight: 400;
+  src: url(/etc/designs/iope/iope2014/kr/ko/fonts/AritaMedium.eot);
+  src: url(/etc/designs/iope/iope2014/kr/ko/fonts/AritaMedium.eot?#iefix) format('embedded-opentype'), url(/etc/designs/iope/iope2014/kr/ko/fonts/AritaMedium.woff) format('woff'), url(/etc/designs/iope/iope2014/kr/ko/fonts/AritaMedium.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Arita-SemiBold';
+  font-style: normal;
+  font-weight: normal;
+  src: url(/etc/designs/iope/iope2014/kr/ko/fonts/AritaSemiBold.eot);
+  src: url(/etc/designs/iope/iope2014/kr/ko/fonts/AritaSemiBold.eot?#iefix) format('embedded-opentype'), url(/etc/designs/iope/iope2014/kr/ko/fonts/AritaSemiBold.woff) format('woff'), url(/etc/designs/iope/iope2014/kr/ko/fonts/AritaSemiBold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'ARITA-BURI';
+  font-style: normal;
+  font-weight: normal;
+  src: url(/etc/designs/iope/iope2014/kr/ko/fonts/AritaburiMedium.eot);
+  src: url(/etc/designs/iope/iope2014/kr/ko/fonts/AritaburiMedium.eot?#iefix) format('embedded-opentype'), url(/etc/designs/iope/iope2014/kr/ko/fonts/AritaburiMedium.woff) format('woff');
+}
+
+
+/* COMMON */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, form, fieldset, p, button {font-family:"Arita-Medium"; letter-spacing:-0.5px}
+#wrap {padding:0;}
+#content.uvShield {padding:0; color:#333;}
+#content.uvShield .breadcrumb {text-align:left; max-width:960px; width:auto;}
+#content.uvShield strong {font-weight:normal;}
+
+.uv_subtit {padding-top:9.4%; font-family:"Arita-SemiBold"; font-size:20px;}
+.uv_subtit span {position:relative;}
+.uv_subtit span:before {display:block; position:absolute; top:7px; left:-60px; width:50px; height:2px; border-top:1px solid #a5c1d8; border-bottom:1px solid #a5c1d8; content:"";}
+.uv_subtit span:after {display:block; position:absolute; top:7px; right:-60px; width:50px; height:2px; border-top:1px solid #a5c1d8; border-bottom:1px solid #a5c1d8; content:"";}
+
+.fn01 {font-size:35px; line-height:44px}
+.fbold {font-family:"Arita-SemiBold"; font-weight:normal;}
+.color01 {color:#ffae44}
+.br {display:block;}
+br.br {display:block;}
+br.mbr {display: none}
+
+/* CONTENT */
+.uvShield {color:#333; text-align:center;}
+.uvShield .inner {max-width:964px; margin:0 auto;}
+
+/* GNB */
+.uv_gnb {position:absolute; left:50%; top:1075px; margin-left:512px; font-family:"Arita-Medium"}
+	.uv_gnb ul {width:140px; font-family:"Arita-Medium"; text-align:left;}
+	.uv_gnb.fixed {position:fixed; top:300px}
+	.uv_gnb li+li {margin-top:19px}
+	.uv_gnb li:before {display:inline-block; content:""; width:0; height:0; border-top:7px solid transparent; border-bottom:7px solid transparent; border-right:0px solid #498ec5; transition:all 0.2s ease}
+	.uv_gnb li.on:before {display:inline-block; content:""; width:0; height:0; margin-right:7px; border-top:7px solid transparent; border-bottom:7px solid transparent; border-right:12px solid #498ec5; vertical-align:-2px}
+	.uv_gnb a {font-size:16px; color:#333; letter-spacing:-0.5px}
+
+/* First */
+.uv_first {background:url(/kr/ko/product/detail/uv-shield/com/bg_first.jpg) no-repeat 50% 0; }
+.uv_first .inner {position:relative; min-height:728px;}
+.uv_first .videobtn {top:51%; left:53%;}
+
+/* 제품소개 */
+.uv_intro {padding-bottom:540px; background:url(/kr/ko/product/detail/uv-shield/com/bg_01.jpg) no-repeat 50% 100%;}
+	.uv_intro .hashtags {margin-top:4.3%; font-size:22px; color:#498ec5; line-height:30px}
+	.uv_intro .hashtags + .fn01 {margin-top:1.9%;}
+	.uv_intro .term {display:block; margin-top:20px;}
+	.uv_intro .term02 {display:block;}
+	.box_video.type_feature {margin-top:70px;}
+
+/* 필터 선 케어 라인 */
+.line_intro {}
+.line_intro .fn01 {padding-top:30px; }
+
+.lineDetail {margin-top:40px;}
+	.lineDetail > div {border:1px solid #acc6db; text-align:left; background:url(/kr/ko/product/detail/uv-shield/com/img_product04.png) no-repeat 50% 100%;}
+	.lineDetail .fn01 {font-weight:normal}
+	.lineDetail .txt01 {font-family:"Arita-SemiBold"}
+	.lineDetail .txt01 .color {display:block;}
+	.lineDetail .txt02 {margin-top:23px; font-size:18px;line-height:26px}
+	.lineDetail .txt02 sup  {font-size:11px;}
+	.lineDetail .txt03 {position:relative; margin-top:9px; padding-left:12px; font-size:14px; line-height:20px}
+	.lineDetail .txt03:before {display:block; position:absolute; top:0; left:0; content:"*";}
+ 	.lineDetail .linebox {padding:0 80px; box-sizing:border-box; }
+	.lineDetail .linebox01 {height:619px; background:url(/kr/ko/product/detail/uv-shield/com/img_product01.png) no-repeat 50% 0; }
+	.lineDetail .linebox01 .color {color:#ffae44}
+	.lineDetail .linebox02 .color {color:#fe8f97}
+	.lineDetail .linebox03 .color {color:#648aaf}
+	.lineDetail .linebox04 .color {color:#df9966}
+	.lineDetail .linebox01 {padding-top:110px;}
+	.lineDetail .linebox02 {float:left; width:50%; padding:74px 0px 0 80px;}
+	.lineDetail .linebox03 {float:left; width:50%; padding:74px 20px 0 50px;}
+	.lineDetail .linebox03 sup {font-size:18px;}
+	.lineDetail .linebox04 {clear:both;height:605px; padding:0 30px;}
+	.lineDetail .linebox04 > div {width:45%; margin:0 0 0 auto; padding-top:110px;}
+	.lineDetail .linebox04 .img {margin:-50px 0 -20px -60px;}
+
+.slideZone {position:relative; margin-top:45px;}
+	.slideZone > img {width:100%}
+	.slideZone .slideCont {position:absolute; overflow:hidden; top:0; left:0; width:100%; height:100%;}
+	.slideZone .slideCont > li > .tit {font-size:25px; font-family:"Arita-SemiBold"}
+	.slideZone .slideCont > li > .desc {font-size:19px; line-height:27px}
+	.slideZone .slideCont > li > .morebtn a {display:block; overflow:hidden; width:26px; height:26px; background:url(/kr/ko/product/detail/uv-shield/com/btn_more.png) no-repeat 50% 50%; text-indent:-9999em}
+
+	.slideZone .slideCont > li { position:absolute; top:0; left:0; width:100%; height:100%; transition:all 0.5s ease; opacity:0;}
+	.slideZone .slideCont > li.on {z-index:100; opacity:1; }
+	.slideZone .slideCont > li:nth-child(1) {background:url(/kr/ko/product/detail/uv-shield/com/img_slide02.jpg) no-repeat 50% 50%; background-size:100% auto;}
+	.slideZone .slideCont > li:nth-child(2) {background:url(/kr/ko/product/detail/uv-shield/com/img_slide01.jpg) no-repeat 50% 50%; background-size:100% auto;}
+	.slideZone .slideCont > li:nth-child(3) {background:url(/kr/ko/product/detail/uv-shield/com/img_slide03.jpg) no-repeat 50% 50%; background-size:100% auto;}
+	.slideZone .slideCont > li:nth-child(4) {background:url(/kr/ko/product/detail/uv-shield/com/img_slide04.jpg) no-repeat 50% 50%; background-size:100% auto;}
+
+	.slideZone .slideCont > li > * {position:absolute; }
+	.slideZone .slideCont > li:nth-child(1) > .tit {left: 14%; top: 37.5%;}
+	.slideZone .slideCont > li:nth-child(1) > .desc {top:44%; left:8%; text-align:right;}
+	.slideZone .slideCont > li:nth-child(1) > .morebtn {top:62%; left:22%;}
+	.slideZone .slideCont > li:nth-child(2) > .tit {top:19.5%; left:16%;}
+	.slideZone .slideCont > li:nth-child(2) > .desc {top:26%; left:7%; text-align:right;}
+	.slideZone .slideCont > li:nth-child(2) > .morebtn {top:19%; left:31.5%;}
+	.slideZone .slideCont > li:nth-child(3) > .tit {right:14%; top:23%;}
+	.slideZone .slideCont > li:nth-child(3) > .desc {top:30%; right:10%; text-align:left;}
+	.slideZone .slideCont > li:nth-child(3) > .morebtn {top:24%; right:40%;}
+	.slideZone .slideCont > li:nth-child(4) > .tit {right:16.5%; top:20.5%;}
+	.slideZone .slideCont > li:nth-child(4) > .desc {top:26%; right:16.5%; text-align:left;}
+	.slideZone .slideCont > li:nth-child(4) > .morebtn {top:42.5%; right:25%;}
+
+
+	.slideZone .indicator p {position:absolute; z-index:100;}
+	.slideZone .indicator a {display:block; width:19px; height:37px; text-indent:-9999em}
+	.slideZone .indicator .prev a {background:url(/kr/ko/product/detail/uv-shield/com/btn_prev.png) no-repeat 50% 50%; background-size:100% auto;}
+	.slideZone .indicator .next a {background:url(/kr/ko/product/detail/uv-shield/com/btn_next.png) no-repeat 50% 50%; background-size:100% auto;}
+	.slideZone .indicator .prev {left:14px; top:50%; margin-top:-18px;}
+	.slideZone .indicator .next {right:14px; top:50%; margin-top:-18px;}
+
+    .slideZone .indicator .number {display:none; position:absolute; top:430px; left:50%; z-index:10000; margin-left:-43px;}
+	.slideZone .indicator .number li {float:left; overflow:hidden; width:14px; height:14px; border-radius:100px}
+	.slideZone .indicator .number li + li {margin-left:10px;}
+	.slideZone .indicator .number li a {display:block; width:100%; height:100%;  background:#878ca0}
+	.slideZone .indicator .number li.on a {background:#fff}
+	
+	.slideLayer {display:none;position:absolute; width:100%; height:100%; top:0; left:0; background:rgba(85,85,85,0.8); z-index:1000;}
+	.slideLayer .layerCont {position:absolute; overflow:hidden; top:0; left:0; bottom:0; right:0; margin:7.3% 8.3%; background:#fff;}
+	.layerCont .close {position:absolute; top:20px; right:20px;}
+	.layerCont .close a {display:block; width:25px; height:25px; background:url(/kr/ko/product/detail/uv-shield/com/btn_close.png) no-repeat 50% 50%; background-size:100% auto; text-indent:-9999em}
+
+	.uv_buy .layerCont .buybox {padding-top:7.5%;}
+	.uv_buy .layerCont .buybox .desc {margin-top:6.6%}
+	.uv_buy .layerCont .buybox .buy_infor {margin-top:24px}
+	.uv_buy .layerCont .buybox > .img {width:46%;}
+	.uv_buy .layerCont .buybox > .iinfor_area {width:54%;}
+
+
+/* 제품 구매 */
+.uv_buy {}
+	.uv_buy .buy_infor {margin-top:29px;}
+	.uv_buy .buy_infor:after {display:block; clear:both; content:""}
+	.uv_buy .buy_infor li {float:left; padding:4px 10px 2px; margin-left:5px; border:1px solid #d6dff2; font-size:14px; font-family:"Arita-Medium"; line-height:20px}
+	.uv_buy .buy_infor li:first-child {margin:0}
+	.uv_buybtn {display:inline-block; height:34px; padding:0 33px; border:1px solid #0c1e45; font-family:"Arita-SemiBold"; line-height:34px; font-size:16px; background:#0c1e45; color:#fff;}
+
+	.uv_buy .buybox {padding-top:9%;}
+	.uv_buy .buybox:after {display:block; clear:both; content:"" }
+	.uv_buy .buybox > * {float:left; width:50%;}
+	.uv_buy .buybox .img {text-align:right;}
+	.uv_buy .buybox .infor_area {position:relative; text-align:left; }
+	.uv_buy .buybox .infor_area dt {font-size:35px; line-height:1.2;}
+	.uv_buy .buybox .infor_area dt span {display:block; margin-top:5px; font-size:17px; font-family:"Arita-SemiBold"; }
+	.uv_buy .buybox .desc {margin-top:6.1%; font-size:18px; line-height:26px}
+	.uv_buy .buybox .price {margin-top:18px; font-size:16px;}
+	.uv_buy .buybox .btn {margin-top:30px}
+	.uv_buy .buybox .btn .mobtn {display:none}
+
+/* 제품특징 */
+.inline_block {display:block;}
+.box_video {position:relative;}
+.box_video .videoZone {position:relative; width:100%; height:100%; margin:0 auto;}
+.box_video.type_feature .videoZone {max-width:966px;}
+.box_video .videoZone iframe {position:absolute; top:0; left:0; width:100%; height:100%;}
+.box_video .videobtn,
+.box_video .btn_play {position:absolute; top:50%; left:50%; width:64px; height:63px; margin:-32px 0 0 -32px;}
+.box_video .videobtn a,
+.box_video .btn_play button {display:block; overflow:hidden; position:relative; width:64px; height:0;; margin:0; padding:63px 0 0; border:none; background-color:transparent; background:url(/kr/ko/product/detail/uv-shield/com/btn_play.png) no-repeat; text-indent:-9999px;}
+.uv_feature {padding-bottom:60px; background:url(/kr/ko/product/detail/uv-shield/com/bg_uv_feature.jpg) no-repeat 50% 100%;}
+.list_uv_feature {margin-top:40px;}
+.list_uv_feature li {-webkit-box-sizing:border-box; box-sizing:border-box; position:relative; min-height:151px; margin-top:48px; padding-left:175px;}
+.list_uv_feature li.li_1 {padding-top:31px;}
+.list_uv_feature li.li_2 {padding-top:2px;}
+.list_uv_feature li.li_3 {padding-top:17px;}
+.list_uv_feature li:before {display:block; position:absolute; top:0; left:0; width:151px; height:151px; background-repeat:no-repeat; content:'';}
+.list_uv_feature li.li_1:before {background-image:url(/kr/ko/product/detail/uv-shield/com/icon_feature_1.png);}
+.list_uv_feature li.li_2:before {background-image:url(/kr/ko/product/detail/uv-shield/com/icon_feature_2.png);}
+.list_uv_feature li.li_3:before {background-image:url(/kr/ko/product/detail/uv-shield/com/icon_feature_3.png);}
+.list_uv_feature li .txt_tit {margin:0 0 17px; font-size:25px; font-family:'Arita-SemiBold';}
+.list_uv_feature li p {font-size:19px; line-height:27px; color:#333; text-align:left;}
+.txt_tit {margin:53px 0 35px; font-size:40px; color:#333;}
+.txt {font-size:19px; line-height:27px; color:#333;}
+.box_sun_micro {overflow:hidden; width:963px; height:0; margin:65px auto 0; padding-top:434px; background:url(/kr/ko/product/detail/uv-shield/com/img_sun_protect_1.jpg) no-repeat; text-indent:-9999px;}
+.box_uv_effect {margin-top:50px;}
+.box_uv_effect:after {display:block; clear:both; visibility:hidden; height:0; content:'';}
+.box_uv_effect .box_unit {float:left; width:477px;}
+.box_uv_effect .box_unit:first-child {margin-right:10px;}
+.tit_type_1 {margin-bottom:20px; border-style:solid; border-color:#a5c1d8; border-width:1px 0; background-color:#fbfbfc; font-size:19px; line-height:55px; color:#333; text-align:center;}
+.txt_exp {position:relative; margin-top:13px; font-size:0;}
+.txt_exp span {display:inline-block; -webkit-box-sizing:border-box; box-sizing:border-box; vertical-align:middle; font-size:17px;}
+.txt_exp .txt {width:48%; padding-left:30px; text-align:left;}
+.txt_exp .txt:first-child {padding-left:0; padding-right:30px; text-align:right;}
+.txt_exp .txt_vs {width:4%; font-size:19px;}
+
+/* Media */
+@media screen and (max-width: 1350px) {
+	.uv_gnb {left: inherit; right: 0; margin: 0; z-index: 1000; } 
+}
+@media all and (max-width:940px) {
+	.uv_intro {padding-bottom:40.5%; background-size:auto 100%;}
+
+	.slideZone .slideCont > li > .tit {font-size:19.5px;}
+	.slideZone .slideCont > li > .desc {font-size:16px;}
+	.uv_buy .layerCont .buybox .infor_area dt {font-size:25px;}
+	.uv_buy .layerCont .buybox .infor_area dt span {font-size:15px;}
+	.uv_buy .layerCont .buybox .desc {margin-top:5%; font-size:15px; line-height:20px}
+	.uv_buy .layerCont .buybox .buy_infor {margin-top:5%;}
+	.uv_buy .layerCont .buybox .btn {margin-top:5%;}
+
+}
+@media all and (max-width:720px) {
+	.slideLayer .layerCont {margin:3% 6%;}
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) and (max-width:657px){}
+@media all and (max-width:640px) {
+	.temp #header {height:310px;}
+
+	/* COMMON */
+	.br {display:inline;}
+	.mbr {display:block;}
+	br.br {display:none;}
+	br.mbr {display:block;}
+
+	.uv_gnb {position:relative; top:0; left:0; width:100%; min-width:640px; z-index:1000}
+	.uv_gnb ul {width:100%; background:#fff; border-style:solid; border-color:#a5c1d8; border-width:1px 1px 1px 0; box-sizing:border-box}
+	.uv_gnb ul:after {display:block; clear:both; content:""}
+	.uv_gnb ul li {float:left; width:34%; margin:0 0; box-sizing:border-box; line-height:1}
+	.uv_gnb ul li:before {display:none}
+	.uv_gnb ul li.on:before {display:none}
+	.uv_gnb ul li.on a {position:relative; height:86px; padding:30px 0 0; margin:-1px 0; background:#498ec5; color:#fff;}
+	/* 갯수 3n */
+	/*.uv_gnb ul li {width:33%;}*/
+	/*.uv_gnb ul li:nth-child(3n-1) {width:34%}*/
+	/* //갯수 3n */
+	.uv_gnb ul li {width:33%; border-style:solid; border-color:#a5c1d8; border-width:0 1px 1px 0;}
+	.uv_gnb ul li:nth-child(3n) {border-right:none;}
+	.uv_gnb ul li:first-child,
+	.uv_gnb ul li:nth-child(4n) {border-left:1px solid #a5c1d8;}
+	.uv_gnb ul li:nth-child(n + 4) {width:50%; border-bottom:none;}
+	.uv_gnb ul li:nth-child(2) {width:34%}
+	/* //갯수 3n */
+	/*.uv_gnb ul li:nth-child(n+4) {border-top:1px solid #a5c1d8}*/
+	.uv_gnb ul li a {display:block; height:84px; padding:30px 0 0; text-align:center; vertical-align:middle; font-size:23px; font-family:'RixSGo M','Rix고딕 M'; color:#333; box-sizing:border-box;}
+
+	.uv_gnb.fixed {top:0}
+	.uv_gnb.fixed+.uv_buy {margin-top:0; }
+	.uv_gnb+.uv_buy {padding-top:81px; margin-top:-81px;}
+
+	.uv_subtit {padding-top:57px; font-size:22px; font-family:'RixSGo M','Rix고딕 M','NanumGothic','Nanum Gothic','나눔고딕','돋움',Dotum,Helvetica,'Apple SD Gothic Neo',Sans-serif; font-weight:normal}
+	.uv_subtit span:before {top:11px;}
+	.uv_subtit span:after {top:11px;}
+	/* first */
+	.uv_first {background: url(/kr/ko/product/detail/uv-shield/mcom/bg_first.jpg) no-repeat 50% 0;}
+	.uv_first .inner {min-height:498px;}
+	.uv_first .videobtn {display:none;}
+	/* 제품 소개 */
+	.uv_intro {padding-bottom:550px; background: url(/kr/ko/product/detail/uv-shield/mcom/bg_01.jpg) no-repeat 50% 100%;}
+	.uv_intro .hashtags {margin-top:46px; padding:0 11%; font-size:23px; word-break:keep-all;}
+	.uv_intro .hashtags + .fn01 {padding:0 5%; font-size:33px; word-break:keep-all}
+
+
+	/* 제품 구매 */
+	.uv_buy {padding-bottom:3px;}
+		.uv_buy .buybox {position:relative; margin:0 20px; padding-top:44px;}
+		.uv_buy .buybox .img {position:absolute; top:463px; float:none; width:100%; text-align:center;}
+		.uv_buy .buybox .infor_area {float:none;width:100%;text-align:center; }
+		.uv_buy .buybox .infor_area dt {font-size:40px; font-family:"Arita-SemiBold"}
+		.uv_buy .buybox .infor_area dt span {margin-top:12px; font-size:20px; font-family:"Arita-Medium"; line-height:24px}
+		.uv_buy .buybox .infor_area {display:inline-block}
+		.uv_buy .buybox .infor_area li {padding:7px 24px; font-size:22px; line-height:26px}
+		.uv_buy .buybox .buy_infor li {border-color:#cfcfcf;}
+		.uv_buy .buybox .desc {margin-top:20px; font-size:22px; line-height:33px}
+		.uv_buy .buybox .price {margin-top:35px; font-size:25px; }
+		.uv_buy .buybox .btn {margin-top:463px;}
+		.uv_buy .buybox .btn .pcbtn {display:none;}
+		.uv_buy .buybox .btn .mobtn {display:inline-block;}
+		.uv_buy .buy_infor {display:inline-block;}
+		.uv_buy .uv_buybtn {position:relative; width:179px; height:auto; padding:15px 0; font-size:22px; line-height:29px; z-index:1 ; border-color:#22537b;}
+
+	/* uv쉴드라인 */
+	.line_intro .fn01 {padding-top:45px; font-size:33px; line-height:44px}
+	.lineDetail {padding-top:600px; margin-top:0;  background:url(/kr/ko/product/detail/uv-shield/mcom/img_product01.png) no-repeat 50% 0;}
+		.lineDetail > div {margin:0 20px; padding:0; background:#f1eff4}
+		.lineDetail .linebox {padding:0 19px; text-align:center;}
+		.lineDetail .linebox > div {padding:70px 0 65px; border-top:1px dashed #90a7bd;}
+		.lineDetail .linebox:first-child > div {border-top:0;}
+		.lineDetail .linebox:last-child > div {border-top:0;}
+		.lineDetail .linebox .img {margin-left:-50px;}
+		.lineDetail .linebox01 {background:#fff}
+		.lineDetail .linebox02 {float:none; width:100%;  background:#fff}
+		.lineDetail .linebox03 {float:none; width:100%;  background:#fff}
+		.lineDetail .linebox04  {clear:none; height:auto;   padding-bottom: 580px;background:url(/kr/ko/product/detail/uv-shield/mcom/img_product02.png) no-repeat 50% 100%;}
+		.lineDetail .linebox04 > div {width:100%; margin:0; padding-bottom:0;}
+		.lineDetail .linebox04 .img {margin:-65px 0 -30px -30px;}
+
+		.lineDetail .fn01 {padding-top:27px; font-size:35px;}
+		.lineDetail .txt01 {margin-top:9px; font-size:20px; line-height:24px}
+		.lineDetail .txt02 {margin-top:27px; font-size:20px; line-height:27px;}
+		.lineDetail .txt03 {margin-top:19px;font-size:17px; line-height:24px}
+		.lineDetail .txt03:before {display:inline-block; position:static; margin-right:3px;}
+
+	.slideZone {}
+		.slideZone > img {display:none; height:auto;}
+		.slideZone .slideCont {position:static; height:1380px; padding-bottom:0; background:url(/kr/ko/product/detail/uv-shield/mcom/bg_img.jpg) no-repeat 50% 0%; background-size:100% auto;}
+		.slideZone .slideCont > li > .tit {font-size:23px;}
+		.slideZone .slideCont > li > .desc {font-size:19px; line-height:28px;}
+		.slideZone .slideCont > li {padding-top:465px;}
+		.slideZone .slideCont > li > *.slideLayer {position:static; display:block !important}
+		.slideZone .slideCont .morebtn {display:none}
+
+		.slideZone .slideCont > li:nth-child(1) {background:url(/kr/ko/product/detail/uv-shield/mcom/img_slide02.jpg) no-repeat 50% 0%; background-size:100% auto;}
+		.slideZone .slideCont > li:nth-child(2) {background:url(/kr/ko/product/detail/uv-shield/mcom/img_slide01.jpg) no-repeat 50% 0%; background-size:100% auto;}
+		.slideZone .slideCont > li:nth-child(3) {background:url(/kr/ko/product/detail/uv-shield/mcom/img_slide03.jpg) no-repeat 50% 0%; background-size:100% auto;}
+		.slideZone .slideCont > li:nth-child(4) {background:url(/kr/ko/product/detail/uv-shield/mcom/img_slide04.jpg) no-repeat 50% 0%; background-size:100% auto;}
+
+		.slideZone .slideCont > li:nth-child(1) > .tit {left:10%; top:6.5%;}
+		.slideZone .slideCont > li:nth-child(1) > .desc {top:8.5%; left:8%; text-align:right;}
+		.slideZone .slideCont > li:nth-child(2) > .tit {top:4.8%; left:13.5%;}
+		.slideZone .slideCont > li:nth-child(2) > .desc {top:7%; left:1%; text-align:right;}
+		.slideZone .slideCont > li:nth-child(3) > .tit {right:4.5%; top:2.8%;}
+		.slideZone .slideCont > li:nth-child(3) > .desc {top:4.6%; right:4.5%; text-align:right;}
+		.slideZone .slideCont > li:nth-child(4) > .tit {right:5%; top:3.7%;}
+		.slideZone .slideCont > li:nth-child(4) > .desc {top:5.4%; right:4.5%; text-align:right;}
+        .slideZone .indicator .number {display:inline-block}
+        .slideZone .indicator .next {top:16%; right:20px;}
+		.slideZone .indicator .prev {top:16%; left:20px;}
+
+
+	.slideLayer {display:block;height:auto; background:none}
+		.slideLayer .layerCont {position:static; display:none; margin:0;}
+		.slideLayer .layerCont:first-child { display:block;}
+		.layerCont .close {display:none}
+		.uv_buy .layerCont .buybox {padding-top:0;}
+		.uv_buy .layerCont .buybox > .img {text-align:center; width:100%;}
+		.uv_buy .layerCont .buybox .infor_area dt {margin-top:46px; font-size:33px; line-height:36px}
+		.uv_buy .layerCont .buybox .desc {margin-top:39px; font-size:20px; line-height:24px; font-family:'RixSGo M','Rix고딕 M';}
+		.uv_buy .layerCont .buybox .infor_area li {font-size:20px; padding:5px 15px 4px; line-height:24px}
+		.uv_buy .layerCont .buybox .price {margin-top:30px;}
+		.uv_buy .layerCont .buybox .img {top:430px;}
+		.uv_buy .layerCont .buybox .infor_area dt span {font-family:"arial";}
+		.uv_buy .layerCont .buybox .btn {margin-top:474px;}
+	.box_video.type_feature {margin-top:-50px; padding:0 20px;}
+	.box_sun_micro,
+	.box_video img {width:100%;}
+	.list_uv_feature {margin-left:35px; margin-right:35px;}
+	.list_uv_feature li p {font-size:20px;}
+	.list_uv_feature li:before {background-size:contain;}
+	.list_uv_feature li.li_1:before {background-image:url(/kr/ko/product/detail/uv-shield/mcom/icon_feature_1.png);}
+	.list_uv_feature li.li_2:before {background-image:url(/kr/ko/product/detail/uv-shield/mcom/icon_feature_2.png);}
+	.list_uv_feature li.li_3:before {background-image:url(/kr/ko/product/detail/uv-shield/mcom/icon_feature_3.png);}
+	.uv_feature {padding-bottom:485px; background-image:url(/kr/ko/product/detail/uv-shield/mcom/bg_uv_feature.jpg); background-position:50% 100%; background-size:contain;}
+	.uv_effect,
+	.uv_micro {padding:0 20px;}
+	.box_sun_micro {margin:50px 0 0; padding-top:72.78797996661102%; background-image:url(/kr/ko/product/detail/uv-shield/mcom/img_sun_protect_1.jpg); background-size:contain;}
+	.box_uv_effect .box_unit {float:none; width:100%;}
+	.box_uv_effect .box_unit +  .box_unit {margin-top:50px;}
+	.box_uv_effect .box_unit:first-child {margin-right:0;}
+	.tit_type_1 {font-size:20px;}
+}
